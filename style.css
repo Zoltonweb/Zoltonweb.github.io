@@ -2,6 +2,13 @@ h1 {
     color:blue;
 }
 .Poster{
-border:green;
-size: 3px;
+border: 3px solid green;
+}
+#Hobit{
+    border: 2px solid black;
+}
+h2 {
+    size: 20px;
+    left: auto;
+    color: #333333;
 }
