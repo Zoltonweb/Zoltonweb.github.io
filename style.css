@@ -1,14 +1,68 @@
+body {
+    background-color: rgb(246, 255, 113);
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+
 h1 {
-    color:blue;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.3px rgb(88, 87, 87);
+    color: rgb(0, 119, 26);
+    text-align: center;
 }
-.Poster{
-border: 3px solid green;
+
+a {
+    text-decoration: none;
+    color: rgb(0, 119, 26);
 }
-#Hobit{
-    border: 2px solid black;
+
+a:hover {
+    color: rgb(0, 165, 36);
 }
+
+#Poster{
+    margin: 20px;
+    border: 3px solid rgb(0, 119, 26);
+}
+
 h2 {
     size: 20px;
     left: auto;
     color: #333333;
+}
+
+.Border {
+    border: 1px solid rgb(0, 119, 26);
+}
+
+p {
+    margin-left: 15px;
+    text-indent: 15px;
+}
+
+.Flex {
+    display: flex;
+    
+}
+
+.info {
+    margin: auto 0;
+}
+
+#Galery>img {
+    border: 3px solid gold;
+    width: 380px;
+    height: 240px;
+    margin: 20px;
+}
+
+#Galery {
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+#Description>p {
+    text-align: justify;
+    margin: 15px;
 }
