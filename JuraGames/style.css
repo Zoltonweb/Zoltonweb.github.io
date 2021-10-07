@@ -3,9 +3,11 @@ body
     background-color: rgb(64, 233, 255); 
     margin: 0 auto;
 }
-    h1{
-        text-align: center;
-    }
+
+h1{
+    text-align: center;
+}
+
 .game {
     width: 600px;
     height: 200px;
