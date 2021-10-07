@@ -1,8 +1,11 @@
 body
 {
-    background-color: rgb(64, 233, 255);
+    background-color: rgb(64, 233, 255); 
+    margin: 0 auto;
 }
-    
+    h1{
+        text-align: center;
+    }
 .game {
     width: 600px;
     height: 200px;
@@ -12,9 +15,9 @@ body
 
 #jura {
     width: 60px;
-    height: 50px;
-    background-image: url(img/bird.png);
-    background-size: 60px 50px;
+    height: 60px;
+    background-image: url(img/1.png);
+    background-size: 60px 60px;
     position: relative;
     top: 150px;
 }
@@ -25,7 +28,7 @@ body
     background-image: url(img/3.png);
     background-size: 50px 40px;
     position: relative;
-    top: 110px;
+    top: 100px;
     left: 560px;
     animation: ArbuzMov 1.5s infinite linear;
 }
